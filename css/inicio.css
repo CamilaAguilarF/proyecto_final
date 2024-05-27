@@ -1,0 +1,30 @@
+/* la pagina esta hecha en tamaño celular: 480px */
+img{
+    width: 30rem;
+}
+
+/* tamaño tablet*/
+@media screen and (min-width: 768px){
+img{
+    width: 25rem
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+}
+}
+
+ /*tamaño computadora*/
+ @media screen and (min-width: 1200px) {
+    main{
+            font-size: 18px;
+        }
+    img{
+        width: 25rem;
+    }
+    .contenedor{
+        border: 1px solid black;
+    }
+
+ }
+    
