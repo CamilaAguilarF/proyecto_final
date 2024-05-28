@@ -3,7 +3,6 @@
     display: block;
 }
 .contenedor img{
-    margin: 10px 80px;
     margin-left: 0px;
     margin-right: 5px;
 }
@@ -25,4 +24,14 @@ ul{
     main{
         margin-left: 80px;
     }
+}
+
+/*tamaño computadora*/
+@media screen and (min-width: 1200px) {
+.contenedor img{
+    margin: 10px 90px;
+}
+main{
+    margin-left: 220px;
+}
 }
