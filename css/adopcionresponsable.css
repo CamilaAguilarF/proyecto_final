@@ -1,0 +1,28 @@
+/* la pagina esta hecha en tamaño celular: 480px */
+.contenedor{
+    display: block;
+}
+.contenedor img{
+    margin: 10px 80px;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+ul{
+    text-align: center;
+    background-color: rgba(247, 220, 185, 0.514);
+    margin-bottom: 20px;
+    border-radius: 50px;
+    padding: 10px
+
+}
+
+/* tamaño tablet*/
+@media screen and (min-width: 768px){
+    .contenedor{
+        display: block;
+        text-align: left;
+    }
+    main{
+        margin-left: 80px;
+    }
+}
