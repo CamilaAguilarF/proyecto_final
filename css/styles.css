@@ -21,7 +21,12 @@ main{
     display: inline-block;
 
 }
-
+section{
+    margin: 5px;
+}
+aside{
+    margin: 5px;
+}
 h1{
     background-color: rgb(252, 220, 42);
     padding:15px ;
@@ -30,9 +35,16 @@ h1{
     font-style: italic;
 }
 
+
+
 p{
     text-align: center;
     background-color:rgba(247, 220, 185, 0.514);
+}
+
+.img4{
+width: 8rem;
+margin-left: 120px;
 }
 
 h2{
@@ -133,6 +145,9 @@ span{
         width: 40rem;
         margin-left: 70px;
     }
+    .img4{
+        margin-left: 260px;
+    }
     }
     
     /*tamaño computadora*/
@@ -148,5 +163,16 @@ span{
         main{
             width: 75rem;
             margin-left: 220px;
+        }
+        .contenedor{
+            display: flex;
+            flex-direction: row;
+            text-align:center;           
+            }
+            
+            
+            .img4{
+                display: block;
+                
         }
     }
