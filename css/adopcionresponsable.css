@@ -1,0 +1,45 @@
+/* la pagina esta hecha en tamaño celular: 480px */
+.contenedor{
+    display: block;
+    margin-left: 10px;
+}
+.contenedor img{
+    margin-left: 0px;
+    margin-right: 5px;
+    width: 450px;
+}
+ul{
+    text-align: center;
+    background-color: rgba(247, 220, 185, 0.514);
+    margin-bottom: 20px;
+    border-radius: 50px;
+    padding: 10px
+
+}
+
+/* tamaño tablet*/
+@media screen and (min-width: 768px){
+    .contenedor{
+        display: block;
+        text-align: left;
+        margin-left: 70px;
+    
+    }
+    .contenedor img{
+        width: 500px;
+    }
+    main{
+        margin-left: 70px;
+    }
+}
+
+/*tamaño computadora*/
+@media screen and (min-width: 1200px) {
+    .contenedor img{
+    margin: 10px 25px;
+    display: inline-block;
+}
+main{
+    margin-left: 220px;
+}
+}
