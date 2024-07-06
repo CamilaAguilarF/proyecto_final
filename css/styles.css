@@ -9,11 +9,19 @@ body{
     background-color: rgba(55, 197, 55, 0.596);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     ;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
 main{
-    width: 25rem;
+    width: 30rem;
+    flex: 1;
+}
+
+footer{
+    flex-shrink: 0
 }
 
 .navegacion{
@@ -138,6 +146,7 @@ h3{
     align-items: center;
 }
 
+
 /* tamaño tablet*/
 @media screen and (min-width: 768px){
     .navegacion{
@@ -145,8 +154,12 @@ h3{
         justify-content: center;
     }
     body{
-        
-        
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    main{
+        flex: 1;
     }
     .img3{
     margin-left: 0%;
@@ -162,6 +175,9 @@ h3{
     .img4{
         margin-left: 260px;
     }
+    footer{
+        flex-shrink: 0;
+    }
     }
     
     /*tamaño computadora*/
@@ -173,10 +189,14 @@ h3{
         }
         body{
             font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         main{
             width: 75rem;
             margin-left: 220px;
+            flex: 1;
         }
         .contenedor{
             display: flex;
@@ -192,5 +212,8 @@ h3{
         .img6{
             width: 50px;
             height: 50px;
+        }
+        footer{
+            flex-shrink: 0;
         }
     }
