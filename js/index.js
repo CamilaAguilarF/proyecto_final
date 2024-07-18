@@ -49,3 +49,4 @@ if(nombreIngresado !== null && passwordIngresada !== null && emailIngresado !== 
 
 console.log(db)
 console.log(JSON.parse(sessionStorage.getItem('datosDelUsuario')))
+
