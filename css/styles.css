@@ -217,3 +217,18 @@ h3{
             flex-shrink: 0;
         }
     }
+
+    form {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-top: 10px;
+    }
+    
+    input, select, button {
+        margin-top: 5px;
+        padding: 8px;
+        width: 100%;
+    }
