@@ -39,6 +39,18 @@ if(nombreIngresado !== null && passwordIngresada !== null && emailIngresado !== 
         }
     }
 
+    if(usuarioEncontrado !== true){
+        const usuarioPorGuardar =  {
+            nombre: nombreIngresado,
+            email: emailIngresado,
+            password: passwordIngresada
+        }
+        db.push(usuarioPorGuardar);
+        usuario = usuarioPorGuardar;
+    
+        nombreDelUsuario = nombreIngresado;
+    }
+
     sessionStorage.setItem('usuario', nombreDelUsuario)
     sessionStorage.setItem('datosDelUsuario', JSON.stringify(usuario))
     // alert(`Bienvenid@ ${nombreDelUsuario} a nuestra página!!`)

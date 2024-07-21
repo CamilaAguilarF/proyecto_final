@@ -188,14 +188,14 @@ h3{
             justify-content:space-evenly;
         }
         body{
-            font-size: 20px;
+            font-size: 100px;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
         }
         main{
             width: 75rem;
-            margin-left: 220px;
+            margin-left: 100px;
             flex: 1;
         }
         .contenedor{
@@ -231,4 +231,9 @@ h3{
         margin-top: 5px;
         padding: 8px;
         width: 100%;
+    }
+
+    .huelladecarbono{
+        padding: 5%;
+        margin: 50;
     }
