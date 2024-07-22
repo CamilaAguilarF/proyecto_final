@@ -1,13 +1,11 @@
 /* la pagina esta hecha en tamaño celular: 480px */
 img{
     width: 25rem;
+    max-width: 100%;
 }
 
 /* tamaño tablet*/
 @media screen and (min-width: 768px){
-img{
-    width: 25rem
-}
 .img3{
     width: 25rem;
 }
@@ -24,9 +22,6 @@ img{
     main{
             font-size: 18px;
         }
-    img{
-        width: 25rem;
-    }
     .contenedor{
         border: 1px solid black;
     }
