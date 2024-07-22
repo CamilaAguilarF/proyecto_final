@@ -1,10 +1,8 @@
 
 /* la pagina esta hecha en tamaño celular: 480px */
-.img1{
-    width: 60px;
-}
 
-.img2{
+
+.img1, .img2{
     width: 60px;
 
 }
@@ -14,6 +12,11 @@
     margin-left: 30%;
 }
 
+.redesSociales{
+    display: flex;
+    justify-content: space-around;
+}
+
 /* tamaño tablet*/
 @media screen and (min-width: 768px){
 .img3{
@@ -21,7 +24,6 @@ margin-left: 0%;
 }
 .redes{
     display: inline;
-    margin: 10%;
 }
 }
 

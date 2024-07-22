@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/inicio.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="shortcut icon" href="./img/iconoambiente.png" type="image/x-icon">
     <title>QUIENES SOMOS</title>
 </head>
 <body>
@@ -13,10 +14,10 @@
         <nav class="navegacion">
             <ul class="barradenavegacion">
                 <li class="list"><a href="index.html">INICIO</a></li>
-                <li class="list"><a href="contacto.html">CONTACTO</a></li>
                 <li class="list"><a href="guias.html">GUIAS</a></li>
                 <li class="list"><a href="servicios.html">SERVICIOS</a></li>
                 <li class="list"><a href="adopcionresponsable.html">ADOPCION RESPONSABLE</a></li>
+                <li class="list"><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
@@ -24,28 +25,61 @@
         <section>
             <h1>INFORMACIÓN DE CONTACTO</h1>
             <ul>
-                <li>Dirección: Misionero J. Beauvour 844, Caleta Olivia, Argentina, 9011.</li>
-                <li>Celular: 2974856072</li>
-                <li>Email: secretaria.ambientemco@gmail.com</li>
+                <li>Dirección: <a href="https://maps.app.goo.gl/wGYBXDXGvMcQHJHQ7" target="_blank"> Misionero J. Beauvour 844, Caleta Olivia, Argentina, 9011.</a></li>
+                <li>Celular: <a href="tel:+2974856072">2974856072</a></li>
+                <li>Email: <a href="email:secretaria.ambiente@gmail.com">secretaria.ambiente@gmail.com</a></li>
             </ul>
+            <p>Dejanos tu consulta y pronto nos estaremos contactando por email:</p>
+            <form action="" id="form-contacto" class="div-flex">
+                <div class="container-input div-flex">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Ingresu su nombre" name="nombre" id="nombre" required>
+                </div>
+                <div class="container-input div-flex">
+                    <label for="email">Email</label>
+                    <input type="email"  placeholder="Ingresu su email" name="email" id="email" required>
+                </div>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" placeholder="Dejanos tu mensaje"></textarea>
+                <div class="container-btn">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+            </form>
         </section>
         <section>
             <h2>Acerca del sitio</h2>
                 <p>Toda la información usada en este sitio web fue extraída por las redes sociales de la Subsecretaria
                     de gestión ambiental de Caleta Olivia, Santa Cruz.
                 </p>
-                <ul>
-                    <li class="redes">FACEBOOK <a href="http://www.facebook.com/ambientecaletaolivia?mibextid=ZbWKwL" target="_blank"><img class="img1" src="img/face.jpg" alt="logo de Facebook"></a></li>
-                    <li class="redes">INSTAGRAM <a href="http://www.instagram.com/ambientecaletaolivia?igsh=MW94dWgyZ2J0djZ5dq==" target="_blank"><img class="img2" src="img/insta.webp" alt="logo de Instagram"></a></li>
-                </ul>
+                <ul class="redesSociales">
+                    <li class="redes">
+                        <a href="http://www.facebook.com/ambientecaletaolivia?mibextid=ZbWKwL" target="_blank">
+                            <img class="img1" src="img/face.jpg" alt="logo de Facebook">
+                            <p>FACEBOOK</p>
+                        </a>    
+                    </li>
+                    <li class="redes">
+                        <a href="http://www.instagram.com/ambientecaletaolivia?igsh=MW94dWgyZ2J0djZ5dq==" target="_blank">
+                            <img class="img2" src="img/insta.webp" alt="logo de Instagram">
+                            <p>INSTAGRAM</p>
+                        </a>    
+                    </li>
+                </ul>    
         </section>
         <div> 
             <h3>Para más información:</h3>
             <a href="http://linktr.ee/secretariadeambiente" target="_blank"><img class="img3" src="img/MCO.png" alt="logo de MCO"></a>
         </div>
     </main>
-    <footer>
-        <span>&copy; Grupo Caleta</span>
-    </footer>
+    <footer >
+        <div class="pies">
+            <img class="img6" src="./img/MCO.png" alt="Logo de la municipal">  
+            <span>&copy; Grupo Caleta</span>
+            <span>Ciudad Caleta Olivia - Santa Cruz</span>
+            <span>Secretaria de Medio Ambiente</span>
+            <span>Municipalidad de Caleta Olivia</span>
+            </div>
+        </footer>
 </body>
 </html>
