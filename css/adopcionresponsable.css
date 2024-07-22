@@ -28,9 +28,6 @@ ul{
     .contenedor img{
         width: 500px;
     }
-    main{
-        margin-left: 70px;
-    }
 }
 
 /*tamaño computadora*/
@@ -38,8 +35,5 @@ ul{
     .contenedor img{
     margin: 10px 25px;
     display: inline-block;
-}
-main{
-    margin-left: 220px;
 }
 }
