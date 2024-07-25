@@ -33,7 +33,7 @@
             </ul>
             <p>Recordemos que cada acción cuenta. Al ser conscientes de nuestros residuos, estamos contribuyendo a un futuro más limpio y sostenible. Hagamos de nuestra comunidad un lugar mejor para todos. </p>
         </section>
-        <div>   
+        <section>   
             <h2>¿Que residuos se pueden clasificar?</h2>
             <ul>
                 <li>Latas, papel y carton</li>
@@ -46,40 +46,46 @@
             <li>Contactarse con algun RECUPERADOR URBANO</li>
             <li>MAS INFO: contactarse al 2974172396 de LUNES A VIERNES de 8:OO A 12:OOHS</li>
             </ul>
-            
+            <div class="div-flex">    
             <img class="img5" src="./img/recuperador1.jpg" alt="recuperador urbano municipal contacto">
-        </div>
-    </main>
-            <section class="huelladecarbono">
+            </div>
+        </section>
+        <section>    
             <h2>Huella de Carbono, ¿Qué és?</h2>
             <p>La huella de carbono es una medida que indica la cantidad total de emisiones de gases de efecto invernadero (GEI), especialmente dióxido de carbono (CO₂), que son liberadas a la atmósfera como resultado de las actividades humanas. Estas actividades pueden incluir:</p>
 
-            <li>
-                <ol>Uso de Energía: Consumo de electricidad y combustibles fósiles para calefacción, refrigeración, transporte, etc.</ol>
-                <ol>Transporte: Emisiones producidas por vehículos motorizados, aviones, trenes y barcos.</ol>
-                <ol>Producción y Consumo de Bienes: Emisiones derivadas de la producción, transporte y eliminación de productos y alimentos.</ol>
-                <ol>Actividades Diarias: Uso de electrodomésticos, dispositivos electrónicos y otras actividades cotidianas.</ol>
-            </li>
+            <ul>
+                <li>Uso de Energía: Consumo de electricidad y combustibles fósiles para calefacción, refrigeración, transporte, etc.</ol>
+                <li>Transporte: Emisiones producidas por vehículos motorizados, aviones, trenes y barcos.</ol>
+                <li>Producción y Consumo de Bienes: Emisiones derivadas de la producción, transporte y eliminación de productos y alimentos.</ol>
+                <li>Actividades Diarias: Uso de electrodomésticos, dispositivos electrónicos y otras actividades cotidianas.</ol>
+                </ul>
 
             <p>La huella de carbono se expresa generalmente en toneladas de CO₂ equivalentes (tCO₂e), una unidad que permite comparar las emisiones de diferentes gases de efecto invernadero basándose en su potencial de calentamiento global.</p>
             <p>Reducir la huella de carbono implica adoptar prácticas y tecnologías más sostenibles, como utilizar fuentes de energía renovable, mejorar la eficiencia energética, reducir el consumo de recursos y cambiar patrones de consumo y movilidad.</p>
             <p>La huella de carbono es un indicador clave en la lucha contra el cambio climático, ya que permite a individuos, empresas y gobiernos comprender y reducir su impacto ambiental.</p>
             <h3>Calculadora de Huella de Carbono</h3>
-            <form id="carbonFootprintForm">
-                <label for="electricidad">Consumo de electricidad (kWh/mes):</label>
-                <input type="number" id="electricidad" name="electricidad" required>
-                <br>
-                <label for="transporte">Distancia en coche (km/semana):</label>
-                <input type="number" id="transporte" name="transporte" required>
-                <br>
-                <label for="vuelos">Número de vuelos al año:</label>
-                <input type="number" id="vuelos" name="vuelos" required>
-                <br>
-                <button type="submit">Calcular</button>
+            <form class="div-flex" id="carbonFootprintForm">
+                <div class="container-input div-flex">
+                    <label for="electricidad">Consumo de electricidad (kWh/mes):</label>
+                    <input type="number" id="electricidad" min="0" name="electricidad" required>
+                </div>
+                <div class="container-input div-flex">    
+                    <label for="transporte">Distancia en coche (km/semana):</label>
+                    <input type="number" id="transporte" min="0" name="transporte" required>
+                </div>
+                <div class="container-input div-flex">
+                    <label for="vuelos">Número de vuelos al año:</label>
+                    <input type="number" id="vuelos" min="0" name="vuelos" required>
+                </div>
+                <div class="container-btn">
+                    <button type="submit">Calcular</button>
+                    <button type="reset">Borrar</button>
+                </div>
             </form>
             <div id="result"></div>
         </section>
-        
+    </main>    
     <footer >
     <div class="pies">
         <img class="img6" src="./img/MCO.png" alt="Logo de la municipal">  
