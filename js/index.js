@@ -95,7 +95,29 @@ const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${a
         document.getElementById('wind').textContent = 'No se pudo obtener la velocidad del viento';
     });
    
+    const temperatureUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=es`;
 
+    fetch(temperatureUrl)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Error en la solicitud');
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data.cod !== 200) {
+                throw new Error(data.message);
+            }
+            const temperature = data.main.temp;
+    
+            let message = `La temperatura actual es ${temperature.toFixed(1)} °C.`;
+    
+            document.getElementById('temperature').textContent = message;
+        })
+        .catch(error => {
+            console.error('Error al obtener los datos:', error);
+            document.getElementById('temperature').textContent = 'No se pudo obtener la temperatura actual';
+        });
 
 
 
