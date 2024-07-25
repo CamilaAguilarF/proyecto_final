@@ -180,6 +180,29 @@ form button{
 }
 
 
+#wind-container {
+    float: right; 
+    width: 300px; 
+    padding: 10px; 
+    background-color: hwb(170 69% 0%);
+    /* border: 1px solid #ccc;  */
+    border-radius: 10px; 
+    margin-top: 20px; 
+    text-align: center;
+}
+
+#wind {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+
+.wind1{
+background-color:  hwb(170 50% 1%)
+
+}
+
+
 /* tamaño tablet*/
 @media screen and (min-width: 768px){
     .navegacion{
