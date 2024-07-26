@@ -27,12 +27,12 @@ section{
 }
 
 aside{
-    margin: 5px;
+    margin: 60px;
 }
 
 h1{
     background-color: rgb(252, 220, 42);
-    padding:15px ;
+    padding: 5px;
     text-align: center;
     font-size: 35px;
     font-style: italic;
@@ -41,6 +41,7 @@ h1{
 
 
 p{
+    padding: 5px;
     text-align: center;
     background-color:rgba(247, 220, 185, 0.514);
 }
@@ -51,7 +52,7 @@ width: 8rem;
 
 h2{
     background-color: rgb(252, 220, 42);
-    padding:15px ;
+    padding:5px ;
     text-align: center;
     font-size: 25px;
     font-style: italic;
@@ -177,6 +178,30 @@ form textarea{
 
 form button{
     width: 45%;
+}
+
+
+#wind-container {
+    float: right; 
+    width: 300px; 
+    padding: 10px; 
+    background-color: hwb(170 69% 0%);
+    /* border: 1px solid #ccc;  */
+    border-radius: 10px; 
+    margin-top: 20px; 
+    text-align: center;
+}
+
+#wind, #temperature {
+    font-size: 21px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.wind1{
+background-color:  hwb(170 50% 1%)
+
 }
 
 
