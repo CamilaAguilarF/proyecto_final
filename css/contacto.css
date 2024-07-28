@@ -1,6 +1,12 @@
 
 /* la pagina esta hecha en tamaño celular: 480px */
+.result1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 800;
 
+}
 
 .img1, .img2{
     width: 60px;
