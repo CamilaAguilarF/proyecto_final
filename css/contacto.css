@@ -1,6 +1,8 @@
 
 /* la pagina esta hecha en tamaño celular: 480px */
-
+.result1{
+    text-align: center;
+}
 
 .img1, .img2{
     width: 60px;
