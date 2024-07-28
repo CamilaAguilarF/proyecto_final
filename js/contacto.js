@@ -50,7 +50,7 @@ window.addEventListener('load', function(e){
        nombre.value = '';
        mensaje.value = '';
 
-       document.getElementById('resultForm').innerText = `Gracias por ponerte en contacto con nosotros, ${usuario.nombre} pronto recibirás  una respuesta. `;
+       document.getElementById('result').innerText = `Gracias por ponerte en contacto con nosotros, pronto recibirás  una respuesta. `;
 
     })
 })
